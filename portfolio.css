@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+font{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background: #fff8f3;
+    padding-top: 50px;
+    background-image: url(./hero-dev-portfolio-resources/images/developer.png), url(./hero-dev-portfolio-resources/images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+
+}
+.color-orange{
+color:#FD6E0A;
+
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 51px;
+    list-style-type: none;
+}
+.menu a{
+    font-size: 20px;
+}
+.btn{
+    background: #FD6E0A;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: wheat;
+    cursor: pointer;
+
+}
+#banner{
+ 
+    margin: 47px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #777;
+
+}
+#banner h1{
+    font-size: 84px;
+    margin-bottom : 20px;
+}
+#banner p{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15px;
+    max-width: 1200px;
+}
+.Button{
+    display: flex;
+    gap: 15px;
+}
+.banner-img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+#about{
+    padding-top: 130px;
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff8f3;
+    padding: 131px 150px;
+}
+.section-heading h2{
+    font-size: 45px;
+    font-size: bold;
+    padding-bottom: 25px;
+}
+.section-heading p{
+    font-size: 18px;
+    color: #777;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-card p{
+    color: #777;
+    padding-bottom: 10px;
+}
