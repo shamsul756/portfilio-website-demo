@@ -10,7 +10,7 @@ font{
 header{
     background: #fff8f3;
     padding-top: 50px;
-    background-image: url(./hero-dev-portfolio-resources/images/developer.png), url(./hero-dev-portfolio-resources/images/header_bg.png);
+    background-image: url(images/developer.png), url(images/header_bg.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -85,6 +85,7 @@ nav{
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 
 #about{
@@ -116,4 +117,42 @@ nav{
 .info-card p{
     color: #777;
     padding-bottom: 10px;
+}
+#skills {
+    padding-top: 130px;
+}
+.skills-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skill-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.skill-card{
+    padding: 15px;
+    max-width: 270px;
+    box-shadow: 0 10px 15px 10px #c0b5b5;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom : 30px;
+}
+.skill-card img{
+ font-size: 20px;
+ color: #181818;
+ margin-bottom: 20px;
+}
+.skill-card h4{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skill-card p{
+    font-size: 20px;
+    color: #777;
+    line-height: 20px;
+    margin-bottom: 29px;
 }
