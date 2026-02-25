@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-font{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
+
+header {
     background: #fff8f3;
     padding-top: 50px;
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -15,16 +16,19 @@ header{
     background-repeat: no-repeat;
     padding-top: 50px;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 45px;
     font-weight: 900;
 
 }
-.color-orange{
-color:#FD6E0A;
+
+.color-orange {
+    color: #FD6E0A;
 
 }
-nav{
+
+nav {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -32,15 +36,18 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 51px;
     list-style-type: none;
 }
-.menu a{
+
+.menu a {
     font-size: 20px;
 }
-.btn{
+
+.btn {
     background: #FD6E0A;
     border: none;
     padding: 10px;
@@ -51,47 +58,55 @@ nav{
     cursor: pointer;
 
 }
-#banner{
- 
+
+#banner {
+
     margin: 47px 38px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#banner h2{
+
+#banner h2 {
     font-size: 45px;
     font-weight: 600;
     color: #777;
 
 }
-#banner h1{
+
+#banner h1 {
     font-size: 84px;
-    margin-bottom : 20px;
+    margin-bottom: 20px;
 }
-#banner p{
+
+#banner p {
     font-size: 20px;
     color: #777;
     margin-bottom: 15px;
     max-width: 1200px;
 }
-.Button{
+
+.Button {
     display: flex;
     gap: 15px;
 }
-.banner-img{
+
+.banner-img {
     max-width: 585px;
     vertical-align: middle;
 }
-.section-heading{
+
+.section-heading {
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
 }
 
-#about{
+#about {
     padding-top: 130px;
 }
-.about-container{
+
+.about-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -99,100 +114,172 @@ nav{
     background: #fff8f3;
     padding: 131px 150px;
 }
-.section-heading h2{
+
+.section-heading h2 {
     font-size: 45px;
     font-size: bold;
     padding-bottom: 25px;
 }
-.section-heading p{
+
+.section-heading p {
     font-size: 18px;
     color: #777;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.about-info{
+
+.about-info {
     display: flex;
     justify-content: space-around;
 }
-.info-card p{
+
+.info-card p {
     color: #777;
     padding-bottom: 10px;
 }
+
 #skills {
     padding-top: 130px;
 }
-.skills-container{
+
+.skills-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
 }
-.skill-box{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+
+.skill-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
-.skill-card{
+
+.skill-card {
     padding: 15px;
     max-width: 270px;
     box-shadow: 0 10px 15px 10px #c0b5b5;
 }
-.skill-card img{
+
+.skill-card img {
     max-width: 44px;
-    margin-bottom : 30px;
+    margin-bottom: 30px;
 }
-.skill-card img{
- font-size: 20px;
- color: #181818;
- margin-bottom: 20px;
-}
-.skill-card h4{
+
+.skill-card img {
     font-size: 20px;
     color: #181818;
     margin-bottom: 20px;
 }
-.skill-card p{
+
+.skill-card h4 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
     font-size: 20px;
     color: #777;
     line-height: 20px;
     margin-bottom: 29px;
 }
-#resume{
-    padding-top: 130px ;   
+
+#resume {
+    padding-top: 130px;
 }
-.resume-container{
+
+.resume-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     gap: 30px;
-    
+
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 20px 0;
 }
-.resume-container .section-title{
+
+.resume-container .section-title {
     color: #474747;
     font-size: 30px;
     margin-bottom: 30px;
 
 }
-.resume-card{
+
+.resume-card {
     max-width: 510px;
     margin-right: 47px;
 }
-.card-title{
+
+.card-title {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #474747;
 }
-.card-info{
+
+.card-info {
     font-size: 15px;
     margin-bottom: 20px;
     color: #757575;
 }
-.resume-card .card-text{
+
+.resume-card .card-text {
     color: #757575;
+
+
+}
+
+.text-center {
+
+    align-items: center;
+
+}
+
+footer {
+    margin-top: 130px;
+    background: #fff8f3;
+    padding: 130px 0;
+}
+.footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 115px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.icons a{
     
-   
+    margin-right: 25px;
+}
+.footer-container form .inp input[type="text"]{
+    width: 460px;
+    padding: 18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-container .inp textarea{
+    width: 460px;
+    height: 150px;
+    padding: 18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    resize: none; /* চাইলে resize বন্ধ করতে পারো */
+    font-size: 16px;
 }
